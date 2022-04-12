@@ -204,7 +204,10 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="contactus.php" method="post">
+                    <input type="hidden" name="project_name" value="Monu">
+					<input type="hidden" name="admin_email" value="monuagrawal1011@gmail.com"> 
+					<input type="hidden" name="form_subject" value="Message from Monu Agrawal"> \
+                    <form action="mail.php" method="post">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" id="Name" name="Name" placeholder="Name" required>
